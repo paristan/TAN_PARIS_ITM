@@ -1,0 +1,67 @@
+#demoFont {
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 28px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #ED7170;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+#Font2 {
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 18px;
+letter-spacing: 0px;
+word-spacing: 2px;
+color: #ed7170;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: lowercase;
+}
+
+div.blueTable {
+  font-family: "Arial Black", Gadget, sans-serif;
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+  width: 100px;
+  text-align: center;
+}
+.divTable.blueTable .divTableCell, .divTable.blueTable .divTableHead {
+  border: 1px solid #FFFFFF;
+  padding: 3px 3px;
+}
+.divTable.blueTable .divTableBody .divTableCell {
+  font-size: 13px;
+  font-weight: bold;
+  color: #ED7170;
+}
+.divTable.blueTable .divTableCell:nth-child(even) {
+  background: #F2E4D2;
+}
+.divTable.blueTable .divTableHeading {
+  background: #ED7170;
+  border-bottom: 2px solid #FFFFFF;
+}
+.divTable.blueTable .divTableHeading .divTableHead {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+.divTable.blueTable .divTableHeading .divTableHead:first-child {
+  border-left: none;
+}
+
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
